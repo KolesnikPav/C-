@@ -7,6 +7,6 @@ if (username.ToLower() == "маша")
 }
 else
 {
-    Console.Write("Пошел к черту, ");
-    Console.WriteLine(username + "!");
+    Console.Write("Пошел к черту, " + username + "!");
+    //Console.WriteLine(username + "!");
 }
